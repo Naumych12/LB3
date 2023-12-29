@@ -1,0 +1,34 @@
+﻿@model List<Employee>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container mt-5 px-2">
+    <div class="table-responsive">
+    <table class="table table-responsive table-borderless">
+        
+      <thead>
+        <tr class="bg-light">
+          <th scope="col" width="20%">Name</th>
+          <th scope="col" width="10%">Email</th>
+          <th scope="col" width="20%">Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+      @foreach (var employee in Model)
+      {
+
+        <tr>
+          <td>@employee.Name</td>
+          <td>@employee.Email</td>
+          <td>@employee.Phone</td>
+        </tr>
+                
+      }
+      </tbody>
+</table>
+  
+  </div>
+    
+</div>

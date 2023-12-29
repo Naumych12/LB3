@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "c5b3a2cc-c03d-4900-8ba9-cb3359e4d43c",
+    "Name": "Wallet",
+    "Client": "Microsoft",
+    "Budget": 9999999999999.0
+  },
+  {
+    "Id": "855f61d1-6ec9-45b1-aa80-03a2ae0a1e12",
+    "Name": "TV",
+    "Client": "Meta",
+    "Budget": 23554879854.0
+  },
+  {
+    "Id": "855f61d1-6ec9-45b1-aa80-03a2ae0a1e11",
+    "Name": "Maps",
+    "Client": "Google",
+    "Budget": 9989797897.0
+  }
+]

@@ -1,0 +1,34 @@
+﻿@model List<Project>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container mt-5 px-2">
+    <div class="table-responsive">
+        <table class="table table-responsive table-borderless">
+        
+            <thead>
+            <tr class="bg-light">
+                <th scope="col" width="20%">Name</th>
+                <th scope="col" width="10%">Client</th>
+                <th scope="col" width="20%">Budget</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var project in Model)
+            {
+
+                <tr>
+                    <td>@project.Name</td>
+                    <td>@project.Client</td>
+                    <td>@project.Budget</td>
+                </tr>
+                
+            }
+            </tbody>
+        </table>
+  
+    </div>
+    
+</div>

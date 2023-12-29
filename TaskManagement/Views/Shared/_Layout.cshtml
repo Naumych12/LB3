@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - TaskManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/TaskManagement.styles.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom mb-3" style="background: #0c64e4;  box-shadow: 4px 0px 8px 7px lightgrey">
+        <div class="container-fluid justify-content-start" style="height: 60px;">
+            <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a class="navbar-brand text-white" asp-area="" asp-controller="Employee" asp-action="Index">Employees</a>
+            <a class="navbar-brand text-white" asp-area="" asp-controller="Project" asp-action="Index">Projects</a>
+            
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

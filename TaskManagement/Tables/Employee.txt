@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "c5b3a2cc-c03d-4900-8ba9-cb3359e4d43b",
+    "Name": "Vlad",
+    "Email": "vlad@nure.ua",
+    "Phone": "7654352456"
+  },
+  {
+    "Id": "c5b3a2cc-c03d-4900-8ba9-cb3359e4d43a",
+    "Name": "Anton",
+    "Email": "anton@nure.ua",
+    "Phone": "345345345"
+  },
+  {
+    "Id": "c5b3a2cc-c03d-4900-8ba9-cb3359e4d43d",
+    "Name": "Andrii",
+    "Email": "andrii@nure.ua",
+    "Phone": "242343453"
+  }
+]
